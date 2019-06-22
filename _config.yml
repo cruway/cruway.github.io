@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "ウクウク"
+  avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "物作り精神を憧れ、楽しんでプログラミングをしているかいはつしゃ"
+  location         : "日本、東京"
+  email            : "cruway33@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
