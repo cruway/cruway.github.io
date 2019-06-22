@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "ウクウク"
   avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "物作り精神を憧れ、楽しんでプログラミングをしているSEエンジニア"
+  bio              : "物作り精神に憧れ、楽しんでプログラミングをしているSEエンジニア"
   location         : "日本、東京"
   links:
     - label: "Email"
