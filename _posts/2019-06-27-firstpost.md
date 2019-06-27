@@ -1,16 +1,9 @@
 ---
 layout: post
 title: "gitのブログを始めました。"
-excerpt: "github blogサービスのgithub.ioブログを始めました。"
-
-categories:
- - Blog
-
- tags:
- - balog
-last_modified_at: 2019-06-27 22:52:34 +0000
+date: 2019-06-27 23:55:45 +0000
+categories: test
 ---
 ポストのテストです。
 ちゃんとできるかどうか
 {{page.title}}
-{{page.last_modified_at}}
