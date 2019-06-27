@@ -1,4 +1,5 @@
 ---
+layout:post
 title: "gitのブログを始めました。"
 excerpt: "github blogサービスのgithub.ioブログを始めました。"
 
