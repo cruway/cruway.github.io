@@ -114,12 +114,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:cruway33@gmail.com
-      # - label: "Website"
-      # icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-      # - label: "Twitter"
-      # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/wook.sim?ref=bookmarks"
@@ -289,6 +283,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
