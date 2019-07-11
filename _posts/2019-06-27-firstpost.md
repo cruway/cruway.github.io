@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: archive
+permalink: /tags/
 title: "gitのブログを始めました。"
-date: 2019-06-27 23:55:45 +0000
-categories: test
+auto_profile: true
 ---
 ポストのテストです。
 ちゃんとできるかどうか
