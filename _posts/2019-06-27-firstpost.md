@@ -1,9 +1,9 @@
 ---
-layout: archive
-permalink: /tags/
-title: "gitのブログを始めました。"
-auto_profile: true
+title: test
+date: 2019-07-11
+categories:
+- mycategory
+tags:
+- tag1
+- tag2
 ---
-ポストのテストです。
-ちゃんとできるかどうか
-{{page.title}}
