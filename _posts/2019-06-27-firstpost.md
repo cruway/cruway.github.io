@@ -7,6 +7,7 @@ tags:
 - tag1
 - tag2
 comments: true
+share: false
 ---
 testdesu
 よろしくお願いします。
