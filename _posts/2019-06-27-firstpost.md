@@ -6,6 +6,7 @@ categories:
 tags:
 - tag1
 - tag2
+comments: true
 ---
 testdesu
 よろしくお願いします。
