@@ -1,8 +1,9 @@
 ---
 title: test
 date: 2019-07-11
+excerpt: testttttt
 categories:
-- mycategory
+- test
 tags:
 - tag1
 - tag2
