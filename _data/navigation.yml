@@ -5,6 +5,6 @@ main:
   - title: "categories"
     url: /categories
   - title: "tags"
-    url: /
+    url: /tags
   - title: "about"
     url: /about
