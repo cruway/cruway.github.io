@@ -2,7 +2,7 @@
 title: test
 date: 2019-07-11
 excerpt: testttttt
-toc : true
+toc: true
 toc_sticky: true
 categories:
 - test
@@ -16,7 +16,7 @@ testdesu
 よろしくお願いします。
 tttt
 
-## 1. test1
+## 1. tttt
 test1
 
 ## 2. test2
