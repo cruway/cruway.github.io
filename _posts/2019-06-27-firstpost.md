@@ -4,6 +4,7 @@ date: 2019-07-11
 excerpt: testttttt
 toc: true
 toc_sticky: true
+toc_label: index
 categories:
 - test
 tags:
