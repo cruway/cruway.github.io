@@ -1,6 +1,6 @@
 ---
 title: "about"
-permalink: /about/
+permalink: /about
 layout: single
 author_profile: true
 ---
