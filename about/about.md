@@ -4,8 +4,18 @@ permalink: /about
 layout: single
 author_profile: true
 ---
+### 現在編集中
 
-## ウクウクの開発ブログ
+## Introduce
+中小企業のSIerエンジニアとして仕事をしています。
 
-初めまして、シムと申します。
-今、ブログを色々開発中です。
+## Future Goal
+
+## Activity
+1. 個人プロジェクト
+2. 勉強会
+3. 趣味活動
+
+## Vision
+
+## Level
