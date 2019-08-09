@@ -2,6 +2,8 @@
 main:
   - title: "home"
     url: /
+  - title: "level"
+    url: /level
   - title: "categories"
     url: /categories
   - title: "tags"
