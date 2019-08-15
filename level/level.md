@@ -47,8 +47,6 @@ author_profile: true
 - 数学
 
 ### Radar Chart
-
-```chart
 {
   "type": "radar",
   "data": {
@@ -102,4 +100,3 @@ author_profile: true
   },
   "options": {}
 }
-```
