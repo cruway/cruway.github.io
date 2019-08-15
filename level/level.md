@@ -5,6 +5,7 @@ layout: single
 author_profile: true
 ---
 ### レベル
+※ 棒グラフ追加予定(設計中)
 
 ## 設計
 
