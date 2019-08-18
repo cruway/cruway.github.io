@@ -60,9 +60,9 @@ author_profile: true
 new Chart(document.getElementById("canvas"), {
     type: 'bar',
     data: {
-        labels: ['가가가가가가가가가가가가가가', '나나나나나나', '다다다다다다', '라라라라라라', '마마마', '바바바바바바바', '사사사사사사사사', '아아아아아아', '자자자자', '차차차차차차차', '카카카카카카카'],
+        labels: ['aaaa', 'bbbb', 'cccc', 'dddd', 'eeee', 'ffff', 'gggg', 'hhhh', 'iiii', 'gggg', 'jkkkk'],
         datasets: [{
-            label: '테스트 데이터셋',
+            label: 'test dataset',
             data: [
                 10,
                 3,
@@ -85,7 +85,7 @@ new Chart(document.getElementById("canvas"), {
         responsive: true,
         title: {
             display: true,
-            text: '막대 차트 테스트'
+            text: 'chart test'
         },
         tooltips: {
             mode: 'index',
@@ -105,7 +105,7 @@ new Chart(document.getElementById("canvas"), {
                 display: true,
                 scaleLabel: {
                     display: true,
-                    labelString: 'x축'
+                    labelString: 'x'
                 },
                 ticks: {
                     autoSkip: false
@@ -118,13 +118,10 @@ new Chart(document.getElementById("canvas"), {
                 },
                 scaleLabel: {
                     display: true,
-                    labelString: 'y축'
+                    labelString: 'y'
                 }
             }]
         }
     }
 });
-
-</script>
-
 </script>
