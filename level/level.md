@@ -1,7 +1,7 @@
 ---
 title: "level"
 permalink: /level
-layout: single
+layout: level
 author_profile: true
 ---
 ### レベル
