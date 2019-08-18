@@ -286,7 +286,3 @@ defaults:
       comments: true
       share: true
       related: true
-
-# chart.js add
-head_scripts:
-  - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js
