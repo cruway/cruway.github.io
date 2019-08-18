@@ -50,3 +50,10 @@ author_profile: true
 - AWS関連
 - 人工知能
 - 数学
+
+<canvas data-chart="rader">
+	Month, 1, 2, 3, 4, 5, 6, 7,
+	1980, 56, 53, 23, 66, 45, 23, 40
+	2017, 54,74, 32,53,4,3
+	
+</canvas>
