@@ -32,6 +32,7 @@ new Chart(document.getElementById("programmer-ability"), {
         }],
         options:{
             responsive: true,
+            scaleSteps: 10,
             scaleStartValue: 0
         }
     }
