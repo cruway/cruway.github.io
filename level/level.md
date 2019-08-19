@@ -28,13 +28,9 @@ new Chart(document.getElementById("programmer-ability"), {
                 83,
                 90,
                 80
-            ]
-        }],
-        options:{
-            responsive: true,
-            scaleSteps: 10,
-            scaleStartValue: 0
-        }
+            ],
+            borderWidth: 10
+        }]
     }
 });
 </script>
