@@ -28,12 +28,12 @@ new Chart(document.getElementById("programmer-ability"), {
                 83,
                 90,
                 80
-            ],
-            borderColor: "rgba(255, 201, 14, 1)",
-            backgroundColor: "rgba(255, 201, 14, 0.5)",
-            fill: true,
-            lineTension: 0
-        }]
+            ]
+        }],
+        options:{
+            responsive: true,
+            scaleStartValue: 0
+        }
     }
 });
 </script>
