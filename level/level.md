@@ -39,7 +39,7 @@ new Chart(document.getElementById("programmer-ability"), {
         "data": [
           78,
           78,
-          40,
+          90,
           59,
           96,
           77,
