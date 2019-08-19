@@ -10,76 +10,26 @@ author_profile: true
 ## 全体技術ステータス
 ※ こっちはchart raderを利用して作る予定
 <div style="width:100%;">
-<canvas id="canvas1" height="300"></canvas>
+<canvas id="programmer-ability" height="300"></canvas>
 </div>
 
 <script>
 
-new Chart(document.getElementById("canvas1"), {
+new Chart(document.getElementById("programmer-ability"), {
     type: 'bar',
     data: {
-        labels: ['aaaa', 'bbbb', 'cccc', 'dddd', 'eeee', 'ffff', 'gggg', 'hhhh', 'iiii', 'gggg', 'jkkkk'],
+        labels: ['理解力', '技術力', '集中力', '熱情', '学習力', 'コミュニケーション'],
         datasets: [{
-            label: 'test dataset',
+            label: 'シム ウクの能力値',
             data: [
-                10,
-                3,
-                30,
-                23,
-                10,
-                5,
-                15,
-                20,
-                13,
-                5,
-                9
-            ],
-            borderColor: "rgba(255, 201, 14, 1)",
-            backgroundColor: "rgba(255, 201, 14, 0.5)",
-            fill: false,
+                90,
+                80,
+                70,
+                83,
+                90,
+                80
+            ]
         }]
-    },
-    options: {
-        responsive: true,
-        title: {
-            display: true,
-            text: 'chart test'
-        },
-        tooltips: {
-            mode: 'index',
-            intersect: false,
-            callbacks: {
-                title: function(tooltipItems, data) {
-                    return data.labels[tooltipItems[0].datasetIndex];
-                }
-            }
-        },
-        hover: {
-            mode: 'nearest',
-            intersect: true
-        },
-        scales: {
-            xAxes: [{
-                display: true,
-                scaleLabel: {
-                    display: true,
-                    labelString: 'x'
-                },
-                ticks: {
-                    autoSkip: false
-                }
-            }],
-            yAxes: [{
-                display: true,
-                ticks: {
-                    suggestedMin: 0,
-                },
-                scaleLabel: {
-                    display: true,
-                    labelString: 'y'
-                }
-            }]
-        }
     }
 });
 </script>
