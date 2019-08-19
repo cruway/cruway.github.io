@@ -48,7 +48,13 @@ new Chart(document.getElementById("programmer-ability"), {
       }
     ]
   },
-  "options": {}
+  "options": {
+    ticks: {
+        stepSize: 10,
+        max: 100,
+        beginAtZero: true
+    }
+  }
 });
 </script>
 
