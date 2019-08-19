@@ -16,7 +16,7 @@ author_profile: true
 <script>
 
 new Chart(document.getElementById("programmer-ability"), {
-    type: 'bar',
+    type: 'radar',
     data: {
         labels: ['理解力', '技術力', '集中力', '熱情', '学習力', 'コミュニケーション'],
         datasets: [{
