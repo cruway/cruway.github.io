@@ -16,22 +16,57 @@ author_profile: true
 <script>
 
 new Chart(document.getElementById("programmer-ability"), {
-    type: 'radar',
-    data: {
-        labels: ['理解力', '技術力', '集中力', '熱情', '学習力', 'コミュニケーション'],
-        datasets: [{
-            label: 'シム ウクの能力値',
-            data: [
-                90,
-                80,
-                70,
-                83,
-                90,
-                80
-            ],
-            borderWidth: 10
-        }]
-    }
+  "type": "radar",
+  "data": {
+    "labels": [
+      "Eating",
+      "Drinking",
+      "Sleeping",
+      "Designing",
+      "Coding",
+      "Cycling",
+      "Running"
+    ],
+    "datasets": [
+      {
+        "label": "My First dataset",
+        "backgroundColor": "rgba(179,181,198,0.2)",
+        "borderColor": "rgba(179,181,198,1)",
+        "pointBackgroundColor": "rgba(179,181,198,1)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgba(179,181,198,1)",
+        "data": [
+          65,
+          59,
+          90,
+          81,
+          56,
+          55,
+          40
+        ]
+      },
+      {
+        "label": "My Second dataset",
+        "backgroundColor": "rgba(255,99,132,0.2)",
+        "borderColor": "rgba(255,99,132,1)",
+        "pointBackgroundColor": "rgba(255,99,132,1)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgba(255,99,132,1)",
+        "data": [
+          28,
+          48,
+          40,
+          19,
+          96,
+          27,
+          100
+        ]
+      }
+    ]
+  },
+  "options": {}
 });
 </script>
 
