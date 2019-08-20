@@ -10,7 +10,7 @@ author_profile: true
 ## 全体技術ステータス
 ※ こっちはchart raderを利用して作る予定
 <div style="width:100%;">
-<canvas id="programmer-ability" height="300"></canvas>
+<canvas id="programmer-ability" height="200"></canvas>
 </div>
 
 <script>
@@ -20,11 +20,11 @@ new Chart(document.getElementById("programmer-ability"), {
   "data": {
     "labels": [
       "技術力",
+      "コミュニケーション",
       "集中力",
       "学習力",
       "熱情",
       "体力",
-      "コミュニケーション",
       "敏捷性"
     ],
     "datasets": [
@@ -43,7 +43,7 @@ new Chart(document.getElementById("programmer-ability"), {
           79,
           96,
           77,
-          100
+          80
         ]
       }
     ]
