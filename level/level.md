@@ -49,13 +49,15 @@ new Chart(document.getElementById("programmer-ability"), {
     ]
   },
   "options": {
-    responsive: true, 
-    ticks: {
-        stepSize: 10,
-        min: 0
-        max: 100,
-        beginAtZero: true
-    }
+    "responsive": true, 
+    "scale": {
+          "ticks": {
+              "stepSize": 10,
+              "beginAtZero":true,
+              "min": 0,
+              "max": 100
+          }
+      }
   }
 });
 </script>
