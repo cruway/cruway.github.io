@@ -69,6 +69,44 @@ new Chart(document.getElementById("programmer-ability"), {
 - Ruby
 - Python
 - Visual Basic
+<div style="width:100%;">
+<canvas id="language-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("language-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Java",
+      "Ruby",
+      "Python"
+    ],
+    "datasets": [
+      {
+        "data": [
+          300,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
+
 
 ## フレームワーク
 - Spring boot
