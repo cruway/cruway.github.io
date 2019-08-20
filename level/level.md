@@ -101,6 +101,12 @@ new Chart(document.getElementById("programmer-ability"), {
 - 人工知能
 - 数学
 
+```mermaid
+graph TD
+  A --> B
+  C --> D
+```
+
 <div style="width:100%;">
 <canvas id="canvas2" height="300"></canvas>
 </div>
