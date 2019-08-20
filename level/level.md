@@ -49,8 +49,10 @@ new Chart(document.getElementById("programmer-ability"), {
     ]
   },
   "options": {
+    responsive: true, 
     ticks: {
         stepSize: 10,
+        min: 0
         max: 100,
         beginAtZero: true
     }
