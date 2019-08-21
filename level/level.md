@@ -88,17 +88,20 @@ new Chart(document.getElementById("language-posting-count"), {
         "data": [
           300,
           50,
-          100
+          100,
+          80
         ],
         "backgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
+          "red",
+          "blue",
+          "green",
+          "yellow"
         ],
         "hoverBackgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-          "#FFCE56"
+          "red",
+          "blue",
+          "green",
+          "yellow"
         ]
       }
     ]
