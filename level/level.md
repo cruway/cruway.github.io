@@ -81,7 +81,8 @@ new Chart(document.getElementById("language-posting-count"), {
     "labels": [
       "Java",
       "Ruby",
-      "Python"
+      "Python",
+      "Visual Basic"
     ],
     "datasets": [
       {
