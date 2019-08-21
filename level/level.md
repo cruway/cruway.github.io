@@ -64,11 +64,13 @@ new Chart(document.getElementById("programmer-ability"), {
 
 ## 設計
 
-## 言語
+## 言語(categoryの掲示数を取得予定)
 - Java
 - Ruby
 - Python
 - Visual Basic
+
+※ chartのコードは別のファイルに割り当てする
 <div style="width:100%;">
 <canvas id="language-posting-count" height="200"></canvas>
 </div>
@@ -87,22 +89,22 @@ new Chart(document.getElementById("language-posting-count"), {
     "datasets": [
       {
         "data": [
-          300,
+          100,
           50,
           100,
           80
         ],
         "backgroundColor": [
-          "red",
-          "blue",
-          "green",
-          "yellow"
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
         ],
         "hoverBackgroundColor": [
-          "red",
-          "blue",
-          "green",
-          "yellow"
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
         ]
       }
     ]
@@ -112,27 +114,257 @@ new Chart(document.getElementById("language-posting-count"), {
 </script>
 
 
-## フレームワーク
+## フレームワーク(categoryの掲示数を取得予定)
 - Spring boot
 - Ruby on Rails
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="framework-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("framework-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Spring boot",
+      "Ruby on Rails",
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ## フロントエンド
 - Javascript
 - JQuery
 - CSS
+- React
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="frontend-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("frontend-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Javascript",
+      "JQuery",
+      "CSS",
+      "React"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+          100,
+          80
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ## 開発ツール
 - Eclipse
 - XCode
 - Visual Studio
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="frontend-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("frontend-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Javascript",
+      "JQuery",
+      "CSS",
+      "React"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+          100,
+          80
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ## データベース
 - MYSQL
 - PostgreSQL
 - Oracle
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="database-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("database-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "MYSQL",
+      "PostgreSQL",
+      "Oracle"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ## DevOps
-- gitLab
+- GitLab
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="devops-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("devops-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "GitLab"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
+
+## OS
+- Windows
+- Mac Os
+- Linux(Versionは未定)
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="OperationSystem-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("OperationSystem-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Windows",
+      "Mac Os",
+      "Linux"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ## アルゴリズム
 
@@ -142,6 +374,52 @@ new Chart(document.getElementById("language-posting-count"), {
 - AWS関連
 - 人工知能
 - 数学
+※ chartのコードは別のファイルに割り当てする
+<div style="width:100%;">
+<canvas id="andsoon-posting-count" height="200"></canvas>
+</div>
+
+<script>
+
+new Chart(document.getElementById("andsoon-posting-count"), {
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Github",
+      "Redmine",
+      "AWS関連",
+      "人工知能",
+      "数学"
+    ],
+    "datasets": [
+      {
+        "data": [
+          100,
+          50,
+          100,
+          80,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB",
+          "yellow"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#36A2EB",
+          "yellow"
+        ]
+      }
+    ]
+  },
+  "options": {}
+});
+</script>
 
 ```mermaid
 graph TD
