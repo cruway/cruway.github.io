@@ -206,19 +206,18 @@ new Chart(document.getElementById("frontend-posting-count"), {
 - Visual Studio
 ※ chartのコードは別のファイルに割り当てする
 <div style="width:100%;">
-<canvas id="frontend-posting-count" height="200"></canvas>
+<canvas id="tools-posting-count" height="200"></canvas>
 </div>
 
 <script>
 
-new Chart(document.getElementById("frontend-posting-count"), {
+new Chart(document.getElementById("tools-posting-count"), {
   "type": "pie",
   "data": {
     "labels": [
-      "Javascript",
-      "JQuery",
-      "CSS",
-      "React"
+      "Eclipse",
+      "XCode",
+      "Visual Studio"
     ],
     "datasets": [
       {
@@ -231,14 +230,12 @@ new Chart(document.getElementById("frontend-posting-count"), {
         "backgroundColor": [
           "#FF6384",
           "#4BC0C0",
-          "#FFCE56",
-          "#36A2EB"
+          "#FFCE56"
         ],
         "hoverBackgroundColor": [
           "#FF6384",
           "#4BC0C0",
-          "#FFCE56",
-          "#36A2EB"
+          "#FFCE56"
         ]
       }
     ]
