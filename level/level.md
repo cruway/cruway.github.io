@@ -222,8 +222,7 @@ new Chart(document.getElementById("tools-posting-count"), {
     "datasets": [
       {
         "data": [
-          100,
-          50,
+          90,
           100,
           80
         ],
