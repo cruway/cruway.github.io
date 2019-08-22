@@ -26,5 +26,3 @@ RubyとAWS, Devopsの勉強をしています。
 3. 趣味活動
 
 ## Vision
-
-## Level
