@@ -8,5 +8,7 @@ main:
     url: /categories
   - title: "tags"
     url: /tags
+  - title: "techinfo"
+    url: /techinfo
   - title: "about"
     url: /about
