@@ -1,0 +1,1 @@
+rubyを利用したweb scrapingを作る予定
