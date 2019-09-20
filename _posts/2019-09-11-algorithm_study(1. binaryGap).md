@@ -61,3 +61,18 @@ public int resultMethod(int number) {
 	return binaryResult;
 }
 ````
+
+# 別のコード参照(超簡単)
+````
+class Solution {
+    public int solution(int n) {
+        n >>>= Integer.numberOfTrailingZeros(n);
+        int steps = 0;
+        while ((n & (n + 1)) != 0) {
+            n |= n >>> 1;
+            steps++;
+        }
+        return steps;
+    }
+}
+````
