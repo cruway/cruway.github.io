@@ -52,24 +52,6 @@ N is an integer within the range [1..100,000];
 each element of array A is an integer that can have one of the following values: 0, 1.
 # 問題回答
 ````
-import java.util.*;
-
-class Solution {
-    public int solution(int[] A) {
-        Set<Integer> setList = new HashSet<Integer>();
-        for(int n : A) {
-            setList.add(n);
-        }
-        
-        for(int i = 1; i < Integer.MAX_VALUE; i++) {
-            if(!setList.contains(i)) {
-                return i;
-            }
-        }
-        return -1;
-    }
-}
-````
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
