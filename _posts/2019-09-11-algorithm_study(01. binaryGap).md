@@ -1,5 +1,5 @@
 ---
-title: Codility Test (1. binaryGap)
+title: Codility Test (01. binaryGap)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -12,7 +12,7 @@ tags:
 date: 2019-09-11
 ---
 
-# Codility Test (1. binaryGap)
+# Codility Test (01. binaryGap)
 
 A  _binary gap_  within a positive integer N is any maximal sequence of consecutive zeros that is surrounded by ones at both ends in the binary representation of N.
 
