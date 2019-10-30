@@ -1,5 +1,5 @@
 ---
-title: Codility Test (5. PermMissingElem)
+title: Codility Test (05. PermMissingElem)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-11
 ---
-# Codility Test (5. PermMissingElem)
+# Codility Test (05. PermMissingElem)
 An array A consisting of N different integers is given. The array contains integers in the range [1..(N + 1)], which means that exactly one element is missing.
 
 Your goal is to find that missing element.
