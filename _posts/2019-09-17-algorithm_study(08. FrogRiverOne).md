@@ -1,5 +1,5 @@
 ---
-title: Codility Test (8. FrogRiverOne)
+title: Codility Test (08. FrogRiverOne)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-17
 ---
-# Codility Test (8. FrogRiverOne)
+# Codility Test (08. FrogRiverOne)
 A small frog wants to get to the other side of a river. The frog is initially located on one bank of the river (position 0) and wants to get to the opposite bank (position X+1). Leaves fall from a tree onto the surface of the river.
 
 You are given an array A consisting of N integers representing the falling leaves. A[K] represents the position where one leaf falls at time K, measured in seconds.
