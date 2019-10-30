@@ -1,5 +1,5 @@
 ---
-title: Codility Test (2. OddOccurrencesInArray)
+title: Codility Test (02. OddOccurrencesInArray)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -12,7 +12,7 @@ tags:
 date: 2019-09-11
 ---
 
-# Codility Test (2. OddOccurrencesInArray)
+# Codility Test (02. OddOccurrencesInArray)
 A non-empty array A consisting of N integers is given. The array contains an odd number of elements, and each element of the array can be paired with another element that has the same value, except for one element that is left unpaired.
 
 For example, in array A such that:
