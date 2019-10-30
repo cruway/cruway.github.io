@@ -1,5 +1,5 @@
 ---
-title: Codility Test (6. TapeEquilibrium)
+title: Codility Test (06. TapeEquilibrium)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-12
 ---
-# Codility Test (6. TapeEquilibrium)
+# Codility Test (06. TapeEquilibrium)
 A non-empty array A consisting of N integers is given. Array A represents numbers on a tape.
 
 Any integer P, such that 0 < P < N, splits this tape into two non-empty parts: A[0], A[1], ..., A[P − 1] and A[P], A[P + 1], ..., A[N − 1].
