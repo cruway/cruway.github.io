@@ -1,5 +1,5 @@
 ---
-title: Codility Test (7. PermCheck)
+title: Codility Test (07. PermCheck)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-17
 ---
-# Codility Test (7. PermCheck)
+# Codility Test (07. PermCheck)
 A non-empty array A consisting of N integers is given.
 
 A permutation is a sequence containing each element from 1 to N once, and only once.
