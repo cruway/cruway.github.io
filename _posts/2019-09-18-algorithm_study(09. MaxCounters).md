@@ -1,5 +1,5 @@
 ---
-title: Codility Test (9. MaxCounters)
+title: Codility Test (09. MaxCounters)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-18
 ---
-# Codility Test (9. MaxCounters)
+# Codility Test (09. MaxCounters)
 You are given N counters, initially set to 0, and you have two possible operations on them:
 
 increase(X) − counter X is increased by 1,
