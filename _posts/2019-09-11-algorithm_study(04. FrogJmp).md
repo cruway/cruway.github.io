@@ -1,5 +1,5 @@
 ---
-title: Codility Test (4. FrogJmp)
+title: Codility Test (04. FrogJmp)
 excerpt: Codility Testを実施しました。
 toc: true
 toc_sticky: true
@@ -11,7 +11,7 @@ tags:
 - codility
 date: 2019-09-11
 ---
-# Codility Test (4. FrogJmp)
+# Codility Test (04. FrogJmp)
 
 
 A small frog wants to get to the other side of the road. The frog is currently located at position X and wants to get to a position greater than or equal to Y. The small frog always jumps a fixed distance, D.
