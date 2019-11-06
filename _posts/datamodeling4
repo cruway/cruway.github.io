@@ -1,0 +1,26 @@
+データモデリングを修行する時に実際の作業はERDに表現される。ERDを通じてEntityを配置してEntity間にRelationship
+を設定する。
+
+このような順番でERDを作成し、プロジェクト中に引き続き協議手段として使用する
+
+Entity導出
+↓
+Entity配置
+・LeftからRightまでTopからBottom形態でEntity配置
+・Main Entityを中心に配置
+↓
+Entity Relationship設定
+・Relationship名を指定(Optional)
+↓
+Relationship技術
+↓
+Relationship参与度技術
+・Relationshipに関するCardinality選定
+↓
+Relationship必須程技術
+・Mandatory/Optional決定
+
+1. ERD表記方式
+Entityになるためにはどんな条件を満足する必要があるか？
+それは7の条件を満足したらEntity資格になり、データモデリングでEntityで具現できる。Entityで選定した後、Entityは
+Physical Modelingでテーブルに変更できる
