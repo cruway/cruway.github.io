@@ -1,0 +1,59 @@
+1. Subsetに関する分割
+Subsetに関する分割はdataのみ分離することを意味する。例えば、講座Entityで法人口座と個人口座Dataを分離すると仮定しよう。
+
+
+そうしたら上記の絵みたいに法人口座Entityと個人口座Entityを導出することができる。このように一つのEntityに同一な
+形のDataが区分ができて保存する場合、subsetに関する分割を考慮することができる。
+
+このようなSubsetに関するEntity分割を修行したら一つの口座番号値に関して照会を修行するSQLが変わることができる。
+普通の場合はEntity分割を行うと該当EntityにアクセスするSQLは複雑になる可能性がある。
+
+もちろん、口座番号自体で法人口座なのか個人口座なのかは確認できればあえてUNION ALLを利用する必要なく、アプリケーションで
+該当Entityのみアクセスすることができる。これと同じくEntity分割も同一になる。Entity分割を通じて「表1」と
+同じ現象が発生する。
+
+「表1」Entity分割による現象
+・オンライン処理
+  - 統合Entity：有利
+  - Subset分離Entity：不利
+  - 備考：統合照会(SQL複雑/性能低下)
+
+・バッチ処理
+  - 統合Entity：不利
+  - Subset分離Entity：有利
+  - 備考：Subset別でバッチ処理をする場合(Partition Architectureで解決可能)
+
+・業務柔軟性(Subset別)
+  - 統合Entity：不利
+  - Subset分離Entity：有利
+  - 備考：業務現行でAttribute追加の時
+  
+・業務柔軟性(全体)
+  - 統合Entity：有利
+  - Subset分離Entity：不利
+  - 備考：Entity追加生成及びApplication変更必要(Subset分離)
+  
+・管理
+  - 統合Entity：不利
+  - Subset分離Entity：有利
+  - 備考：個別作業可能
+  
+・保存空間
+・Data整合性
+
+・業務分析
+  - 統合Entity：不利
+  - Subset分離Entity：有利
+  - 備考：Entity Nameで区分可能
+  
+  
+1) オンライン処理：Subsetに関するEntity分割はオンライン業務処理の時、統合照会を行う必要があるので不利になる。
+2) バッチ処理：バッチ処理の時、Subsetに関するEntity分割はSubset別で作業できるので有利になる。もちろん、全体
+Dataに関する処理は同一になる。そして、統合Entityの場合Physical Modelingしpartition Architecture適用でそれぞれの
+Subsetのみアクセスできるようになる現象を誘導することができる。
+3) 業務柔軟性(Subset別)：Subset別で業務が変更する場合、該当集合だけ修正したらよくてSubsetに関する分離が有利。(ex：カラム追加)
+4) 業務柔軟性(全体)：新たなSubsetが追加する場合、集合Entityならただ使えばよいが、Subset分離Entityの場合新しい
+Entityを構成する必要があり、これに従うアプリケーションの変更及び追加が必要。
+5) 管理：Subset分離Entityの場合Entityが分離していてそれぞれ西行を行うことができて管理に有利になる。
+6) 保存空間：統合Entity及びSubsetに関するEntity分離と同一な保存空間を使用する。
+7) Data整合性：統合EntityとSubsetに関するEntity分離の場合、Data整合性は
