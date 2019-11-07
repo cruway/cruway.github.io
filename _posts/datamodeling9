@@ -16,3 +16,13 @@
 
 このような点により、根本Entityの場合多くの統合も可能だが、中心Entityの場合は少なく統合するのが有利になる。Entityの
 Primary Keyが同一になり各Entityが持っているDataが類似なら一つのEntityに統合できる。
+
+二つのEntityを統合したら正社員か協力社員なのかを区分することができるAttributeが必要になり、該当のAttributeを
+普通区分Attributeという。
+
+新しいSubsetを追加すれば、統合したEntityの区分Attributeである社員区分Attributeの値だけ定義できればすぐにでも統合できる。
+そして、協力会社Entityだけ存在する所属社Attributeは片方Subsetのみ値が存在するのでAttributeのタイプをVarchar2 Type
+で定義したほうが良い。
+
+理由は正社員Dataに関して所属社Attribute値が存在しない、それこそVarcharで宣言をしなければ保存空間を占めないからです。
+Primary Keyがお互いに違うDataに関して同質性を持っていたら一つのEntityに統合できる。
