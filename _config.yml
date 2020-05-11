@@ -120,9 +120,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cruway"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/wook-sim-9a4273185/"
+    #- label: "LinkedIn"
+    #  icon: "fab fa-fw fa-linkedin-in"
+    #  url: "https://www.linkedin.com/in/wook-sim-9a4273185/"
 
 # Site Footer
 footer:
